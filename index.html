@@ -38,7 +38,7 @@
                 redirect: 'follow'
             };
             // make API call with parameters and use promises to get response
-            fetch("https://utsaja.azurewebsites.net/api/HttpTriggertst?code=keZMpshz0LSzFVhwXBF9ucvGfW2wkSNF6dNLcVdqZ3AsjKTjOMyRzQ==", requestOptions)
+            fetch("https://utsaja.azurewebsites.net/api/HttpTriggertst?code=cjbQDzqhjZrl79cwRQJ5yRmcDQxaKxG7Dw7NyS/6W8mUCNji/aW8Gw==", requestOptions)
             .then(response => response.text())
             .then(result => alert(JSON.parse(result).body))
             .catch(error => console.log('error', error));
